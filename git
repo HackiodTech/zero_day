@@ -1,0 +1,5 @@
+#!/bin/bash
+git add .
+read -p "Enter Your Commit Message" YCM
+git commit -m '$YCM'
+git push
